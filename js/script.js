@@ -32,7 +32,7 @@ window.onload = () => {
     const width = window.innerWidth;
     console.log("width: ", width);
 
-    if (width <= 1024) return showBurger();
+    if (width <= 1196) return showBurger();
 
     return hideBurger();
   };
